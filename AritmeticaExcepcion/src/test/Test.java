@@ -12,6 +12,8 @@ public class Test {
 
         } catch (Exception e) {
             e.printStackTrace(System.out);
+        }finally{ //Extension de la estructura que siempre se va a ejecutar
+            System.out.println("Siempre estoy!");
         }
     }
 }
